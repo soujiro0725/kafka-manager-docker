@@ -24,8 +24,7 @@ kafka:
 
 
 kafka-manager:
-  #image: soichi777/kafka-manager:latest
-  image: 727c850b70c4
+  image: soichi777/kafka-manager:latest
   ports:
     - "9000:9000"
   links:
