@@ -4,7 +4,7 @@ MAINTAINER soujiro0725
 
 ENV JAVA_HOME=/usr/java/default/ \
     ZK_HOSTS=localhost:2181 \
-    KM_VERSION=1.3.3.13 \
+    KM_VERSION=1.3.3.16 \
     KM_CONFIGFILE="conf/application.conf"
 
 ADD start-kafka-manager.sh /opt/kafka-manager-${KM_VERSION}/start-kafka-manager.sh
